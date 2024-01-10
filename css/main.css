@@ -43,10 +43,12 @@ a:focus {
   border: none;
 }
 
-a:hover {
-  color: #fff;
-}
-
 .wrapper {
   overflow: hidden;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400px;
+  background: #FFF;
 }/*# sourceMappingURL=main.css.map */
