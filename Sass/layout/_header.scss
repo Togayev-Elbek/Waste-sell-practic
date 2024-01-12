@@ -48,7 +48,7 @@
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 27px;
-                padding: 0 54px 0 65px;
+                padding: 0 56px 0 65px;
             }
             .search__icon{
                 @include mixins.search-icon($position: absolute, $top:13px)  

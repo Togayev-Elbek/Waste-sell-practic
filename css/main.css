@@ -58,6 +58,40 @@ body {
   padding: 0;
 }
 
+.btns {
+  padding: 24px 0;
+  background-color: rgba(204, 223, 236, 0.83);
+  margin-bottom: 30px;
+}
+.btns .nav {
+  gap: 30px;
+}
+.btns .nav-item {
+  padding: 5px 9px;
+  border-radius: 30px;
+  background-color: #345F99;
+}
+.btns .nav-link {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+}
+.btns .nav-itemm {
+  padding: 5px 9px;
+  border-radius: 30px;
+  background-color: #3EB20C;
+}
+.btns .nav-ite {
+  padding: 11px 18px;
+  border-radius: 50%;
+  background-color: #345F99;
+}
+.btns .quest {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .header {
   margin: 40px 0;
 }
@@ -101,7 +135,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-  padding: 0 54px 0 65px;
+  padding: 0 56px 0 65px;
 }
 .header .header__center .contact .search__icon {
   position: absolute;
