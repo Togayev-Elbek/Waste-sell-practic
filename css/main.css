@@ -49,6 +49,93 @@ a:focus {
 
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   background: #FFF;
+}
+
+.container {
+  width: 1170px;
+  padding: 0;
+}
+
+.header {
+  margin: 40px 0;
+}
+.header .header__left .header__left-content {
+  margin-left: 20px;
+}
+.header .header__left .header__left-content .project__title {
+  color: #369E0F;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 10.08px;
+  margin-bottom: 15px;
+}
+.header .header__left .header__left-content .metolom {
+  color: #345F99;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+  margin-bottom: 9px;
+}
+.header .header__left .header__left-content .region__name {
+  color: #345F99;
+  font-size: 14px;
+  letter-spacing: -0.56px;
+}
+.header .header__center {
+  margin: 0 70px 0 100px;
+}
+.header .header__center .contact {
+  position: relative;
+  margin-bottom: 13px;
+}
+.header .header__center .contact .phone__number {
+  color: #345F99;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.header .header__center .contact .name__email {
+  color: #51C444;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0 54px 0 65px;
+}
+.header .header__center .contact .search__icon {
+  position: absolute;
+  top: 13px;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.header .header__center .header__center-logos {
+  gap: 10px;
+}
+.header .header__right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__right .btn {
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(267deg, #3EB40C 0%, #345F99 100%);
+  margin-bottom: 13px;
+  padding: 0;
+}
+.header .header__right .btn button {
+  color: #FFF;
+  font-size: 16px;
+  padding: 12px 30px;
+}
+.header .header__right .calculator {
+  color: #51C444;
+  font-size: 16px;
+  text-decoration-line: underline;
 }/*# sourceMappingURL=main.css.map */

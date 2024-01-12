@@ -1,2 +1,87 @@
 @use "../abstracts/variables";
 @use"../abstracts/mixins";
+
+
+.header{
+    margin: 40px 0;
+    .header__left{
+
+        .header__left-content{
+            margin-left: 20px;
+
+            .project__title{
+                color: variables.$green;
+                font-size: 18px;
+                font-weight: 900;
+                letter-spacing: 10.08px;
+                margin-bottom: 15px;
+            }
+            .metolom{
+                color: variables.$blue;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: -0.56px;
+                margin-bottom: 9px;
+            }
+            .region__name{
+                color: variables.$blue;
+                font-size: 14px;
+                letter-spacing: -0.56px;
+            }
+
+        }
+    }
+    .header__center{
+        margin:0 70px 0 100px;
+
+        .contact{
+            position: relative;
+            margin-bottom: 13px;
+            .phone__number{
+                color: variables.$blue;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 27px;
+            }
+            .name__email{
+                color: variables.$white-green;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                padding: 0 54px 0 65px;
+            }
+            .search__icon{
+                @include mixins.search-icon($position: absolute, $top:13px)  
+            }
+        }    
+        .header__center-logos{
+            gap: 10px;
+        }
+    }
+    .header__right{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .btn{
+            border-radius: 30px;
+            border: none;
+            background: variables.$btn-color;
+            margin-bottom: 13px;
+            padding: 0;
+
+            button{
+                color: variables.$white;
+                font-size: 16px;
+                padding: 12px 30px;
+            }
+        }
+        .calculator{
+            color: variables.$white-green;
+            font-size: 16px;
+            text-decoration-line: underline;
+        }
+    }
+}

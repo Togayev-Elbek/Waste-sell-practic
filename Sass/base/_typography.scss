@@ -2,6 +2,10 @@
 
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     background: variables.$white;
+}
+.container {
+    width: 1170px;
+    padding: 0;
 }
