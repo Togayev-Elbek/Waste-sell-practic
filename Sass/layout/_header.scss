@@ -144,3 +144,93 @@
         @include mixins.search-icon($position: absolute, $top:30px, $right: 166px)  
     }
 }
+.product__boxs{
+    margin-top: 45px;
+
+    .one__boxs{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
+        gap: 25px;
+        margin-bottom: 25px;
+
+        .boxx{
+
+            .box{
+                border-radius: 30px;
+
+                .box__content{
+                    width: 273px;
+                    border-bottom-right-radius: 15px;
+                    border-bottom-left-radius: 15px;
+                    padding: 45px 32px 50px 21px;
+                    background: variables.$bg-color;
+
+                    .box__content-title{
+                        color: variables.$bluee;
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    .small__box-one{
+                        margin: 25px 0 20px 0;
+                        
+                        .word{
+                            color: variables.$white-blue;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                        .number{
+                            color: variables.$white-blue;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                    .small__box-two{
+                        margin-bottom: 25px;
+
+                        .weight__word{
+                            color: variables.$white-blue;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                        .weight__number{
+                            color: variables.$greens;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                    }
+                    .btn{
+                        padding: 10px 60px;
+                        border-radius: 30px;
+                        background: variables.$white-blue;
+
+                        a{
+                            color: variables.$white;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bten{
+        width: 235px;
+        border-radius: 30px;
+        background: variables.$btn-color;
+        margin: 56px 0 90px 0;
+        padding: 17px 40px;
+
+        &:hover{
+            background: variables.$color-btn;
+        }
+
+        a{
+            color: variables.$white;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0px; /* 0% */
+        }
+    }
+}

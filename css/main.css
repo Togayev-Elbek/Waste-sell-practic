@@ -320,4 +320,83 @@ body {
   left: auto;
   transform: translateY(-50%);
   cursor: pointer;
+}
+
+.product__boxs {
+  margin-top: 45px;
+}
+.product__boxs .one__boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.product__boxs .one__boxs .boxx .box {
+  border-radius: 30px;
+}
+.product__boxs .one__boxs .boxx .box .box__content {
+  width: 273px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 45px 32px 50px 21px;
+  background: #D4E5EF;
+}
+.product__boxs .one__boxs .boxx .box .box__content .box__content-title {
+  color: #023887;
+  font-size: 16px;
+  font-weight: 700;
+}
+.product__boxs .one__boxs .boxx .box .box__content .small__box-one {
+  margin: 25px 0 20px 0;
+}
+.product__boxs .one__boxs .boxx .box .box__content .small__box-one .word {
+  color: #2A5391;
+  font-size: 14px;
+  font-weight: 400;
+}
+.product__boxs .one__boxs .boxx .box .box__content .small__box-one .number {
+  color: #2A5391;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product__boxs .one__boxs .boxx .box .box__content .small__box-two {
+  margin-bottom: 25px;
+}
+.product__boxs .one__boxs .boxx .box .box__content .small__box-two .weight__word {
+  color: #2A5391;
+  font-size: 18px;
+  font-weight: 400;
+}
+.product__boxs .one__boxs .boxx .box .box__content .small__box-two .weight__number {
+  color: #3EB20C;
+  font-size: 18px;
+  font-weight: 400;
+}
+.product__boxs .one__boxs .boxx .box .box__content .btn {
+  padding: 10px 60px;
+  border-radius: 30px;
+  background: #2A5391;
+}
+.product__boxs .one__boxs .boxx .box .box__content .btn a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product__boxs .bten {
+  width: 235px;
+  border-radius: 30px;
+  background: linear-gradient(267deg, #3EB40C 0%, #345F99 100%);
+  margin: 56px 0 90px 0;
+  padding: 17px 40px;
+}
+.product__boxs .bten:hover {
+  background: linear-gradient(267deg, #345F99 0%, #3EB40C 100%);
+}
+.product__boxs .bten a {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
 }/*# sourceMappingURL=main.css.map */
