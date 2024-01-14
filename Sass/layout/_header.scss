@@ -108,3 +108,36 @@
         }
     }
 }
+.input__btn{
+    position: relative;
+    .btn{
+        padding: 12px 40px 12px 30px;
+
+        button{
+            padding: 0 40px 0 0;
+        }
+    }
+
+    .input__icon{
+        @include mixins.search-icon($position: absolute, $top:27px, $left: 420px)
+    }  
+    .inputs{
+        padding: 12px 590px 12px 68px;
+        margin-left: 30px;
+        border-radius: 30px;
+        border: 1px solid variables.$bg-color;
+        cursor: pointer;
+
+        input{ 
+            border: none;
+
+            &::placeholder{
+                color: variables.$white-blue;
+                font-size: 16px;
+            }
+        }
+    }
+    .search__icon{
+        @include mixins.search-icon($position: absolute, $top:30px, $right: 166px)  
+    }
+}

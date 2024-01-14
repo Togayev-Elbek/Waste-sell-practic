@@ -271,4 +271,50 @@ body {
   font-size: 16px;
   font-weight: 300;
   margin: 15px 0 23px 0;
+}
+
+.input__btn {
+  position: relative;
+}
+.input__btn .btn {
+  padding: 12px 40px 12px 30px;
+}
+.input__btn .btn button {
+  padding: 0 40px 0 0;
+}
+.input__btn .input__icon {
+  position: absolute;
+  top: 27px;
+  bottom: auto;
+  right: auto;
+  left: 420px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.input__btn .inputs {
+  padding: 12px 590px 12px 68px;
+  margin-left: 30px;
+  border-radius: 30px;
+  border: 1px solid #D4E5EF;
+  cursor: pointer;
+}
+.input__btn .inputs input {
+  border: none;
+}
+.input__btn .inputs input::-moz-placeholder {
+  color: #2A5391;
+  font-size: 16px;
+}
+.input__btn .inputs input::placeholder {
+  color: #2A5391;
+  font-size: 16px;
+}
+.input__btn .search__icon {
+  position: absolute;
+  top: 30px;
+  bottom: auto;
+  right: 166px;
+  left: auto;
+  transform: translateY(-50%);
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
