@@ -73,4 +73,38 @@
         }
     }
 }
-.
+.boxs{
+    margin-bottom: 72px;
+    
+    .box__wrap{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 30px;
+    }
+    .box{
+        padding: 40px 40px 40px 20px;
+        border-radius: 15px;
+        background: variables.$bg-color;
+
+        .box__img{
+            padding: 5px;
+
+        }
+        .box__content{
+            padding-left: 15px;
+
+            .box__title{
+                color: variables.$blue;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .box__write{
+                color: variables.$blue;
+                font-size: 16px;
+                font-weight: 300;
+                margin: 15px 0 23px 0;
+            }
+        }
+    }
+}

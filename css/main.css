@@ -239,4 +239,36 @@ body {
   color: #51C444;
   font-size: 16px;
   text-decoration-line: underline;
+}
+
+.boxs {
+  margin-bottom: 72px;
+}
+.boxs .box__wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 30px;
+}
+.boxs .box {
+  padding: 40px 40px 40px 20px;
+  border-radius: 15px;
+  background: #D4E5EF;
+}
+.boxs .box .box__img {
+  padding: 5px;
+}
+.boxs .box .box__content {
+  padding-left: 15px;
+}
+.boxs .box .box__content .box__title {
+  color: #345F99;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.boxs .box .box__content .box__write {
+  color: #345F99;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 15px 0 23px 0;
 }/*# sourceMappingURL=main.css.map */
