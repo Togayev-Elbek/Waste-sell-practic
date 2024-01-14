@@ -282,6 +282,9 @@ body {
 .input__btn .btn button {
   padding: 0 40px 0 0;
 }
+.input__btn .btn button a {
+  color: #FFF;
+}
 .input__btn .input__icon {
   position: absolute;
   top: 27px;
