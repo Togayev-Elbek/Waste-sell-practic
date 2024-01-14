@@ -51,7 +51,72 @@
     color: variables.$white;
     font-size: 16px;
     font-weight: 300;
+    &:focus{
+        color: variables.$white;
+    }
+    &:hover{
+        color: variables.$white;
+    }
 }
 .title{
     padding: 33px 0 50px 0;
+
+    .button{
+
+        .one__btn{
+            color: variables.$blue;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .two__btn{
+            color: variables.$black-green;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    .title__top{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .title__title{
+            color: variables.$blue;
+            font-size: 40px;
+            font-weight: 500;
+            padding: 42px  232px 66px 0;
+        }
+    }
+    .register{
+        padding: 40px 30px;
+        border-radius: 15px;
+        background: variables.$register-bg-color;
+
+        .guide__title{
+            color: variables.$blue;
+            font-size: 20px;
+            margin: 0 35px 0 40px;
+        }
+        .Arrow__logo{
+            margin-right: 146px;
+        }
+        .enter{
+            border-radius: 30px;
+            border: 2px solid variables.$greens;
+            margin-left: 26px;
+
+            .enter__title{
+                color: variables.$greens;
+                font-size: 16px;
+                font-weight: 400;
+                padding: 8px 50px;
+                &:hover{
+                    color: variables.$white;
+                }
+            }
+            &:hover{
+                background: variables.$greens;
+            }
+        }
+
+    }
 }

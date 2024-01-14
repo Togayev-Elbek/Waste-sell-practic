@@ -109,9 +109,66 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+.nav-link:focus {
+  color: #FFF;
+}
+.nav-link:hover {
+  color: #FFF;
+}
 
 .title {
   padding: 33px 0 50px 0;
+}
+.title .button .one__btn {
+  color: #345F99;
+  font-size: 14px;
+  font-weight: 300;
+}
+.title .button .two__btn {
+  color: #3CA722;
+  font-size: 14px;
+  font-weight: 300;
+}
+.title .title__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.title .title__top .title__title {
+  color: #345F99;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 42px 232px 66px 0;
+}
+.title .register {
+  padding: 40px 30px;
+  border-radius: 15px;
+  background: #D4E5EF;
+}
+.title .register .guide__title {
+  color: #345F99;
+  font-size: 20px;
+  margin: 0 35px 0 40px;
+}
+.title .register .Arrow__logo {
+  margin-right: 146px;
+}
+.title .register .enter {
+  border-radius: 30px;
+  border: 2px solid #3EB20C;
+  margin-left: 26px;
+}
+.title .register .enter .enter__title {
+  color: #3EB20C;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 50px;
+}
+.title .register .enter .enter__title:hover {
+  color: #FFF;
+}
+.title .register .enter:hover {
+  background: #3EB20C;
 }
 
 .header {
