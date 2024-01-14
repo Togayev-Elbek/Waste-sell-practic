@@ -1,5 +1,23 @@
 @use "../abstracts/variables";
 @use "../abstracts/mixins";
+
+.btn{
+    border-radius: 30px;
+    border: none;
+    background: variables.$btn-color;
+    margin-bottom: 13px;
+    padding: 0;
+
+    button{
+        color: variables.$white;
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    &:hover{
+        background: variables.$color-btn;
+    }
+
+}
 .btns{
     padding: 24px 0;
     background-color: variables.$btns-bg-color;
@@ -7,16 +25,7 @@
     .nav{
         gap: 30px;
     }
-    .nav-item{
-        padding: 5px 9px;
-        border-radius: 30px;
-        background-color: variables.$blue;
-    }
-    .nav-link{
-        color: variables.$white;
-        font-size: 16px;
-        font-weight: 300;
-    }
+
     .nav-itemm{
         padding: 5px 9px;
         border-radius: 30px;
@@ -32,4 +41,17 @@
         font-size: 16px;
         font-weight: 300;
     }
+}
+.nav-item{
+    padding: 5px 9px;
+    border-radius: 30px;
+    background-color: variables.$blue;
+}
+.nav-link{
+    color: variables.$white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.title{
+    padding: 33px 0 50px 0;
 }
