@@ -85,6 +85,9 @@
             font-weight: 500;
             padding: 42px  232px 66px 0;
         }
+        .tire__logo{
+            margin-bottom: 20px;
+        }
     }
     .register{
         padding: 40px 30px;
@@ -108,7 +111,7 @@
                 color: variables.$greens;
                 font-size: 16px;
                 font-weight: 400;
-                padding: 8px 50px;
+                padding: 12px 50px;
                 &:hover{
                     color: variables.$white;
                 }

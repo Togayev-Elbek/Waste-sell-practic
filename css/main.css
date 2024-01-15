@@ -140,6 +140,9 @@ body {
   font-weight: 500;
   padding: 42px 232px 66px 0;
 }
+.title .title__top .tire__logo {
+  margin-bottom: 20px;
+}
 .title .register {
   padding: 40px 30px;
   border-radius: 15px;
@@ -162,7 +165,7 @@ body {
   color: #3EB20C;
   font-size: 16px;
   font-weight: 400;
-  padding: 8px 50px;
+  padding: 12px 50px;
 }
 .title .register .enter .enter__title:hover {
   color: #FFF;
@@ -287,16 +290,16 @@ body {
 }
 .input__btn .input__icon {
   position: absolute;
-  top: 27px;
+  top: 28px;
   bottom: auto;
   right: auto;
-  left: 420px;
+  left: 520px;
   transform: translateY(-50%);
   cursor: pointer;
 }
 .input__btn .inputs {
   padding: 12px 590px 12px 68px;
-  margin-left: 30px;
+  margin-left: 64px;
   border-radius: 30px;
   border: 1px solid #D4E5EF;
   cursor: pointer;
@@ -314,9 +317,9 @@ body {
 }
 .input__btn .search__icon {
   position: absolute;
-  top: 30px;
+  top: 28px;
   bottom: auto;
-  right: 166px;
+  right: 200px;
   left: auto;
   transform: translateY(-50%);
   cursor: pointer;
