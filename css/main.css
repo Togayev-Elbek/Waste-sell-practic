@@ -293,13 +293,13 @@ body {
   top: 28px;
   bottom: auto;
   right: auto;
-  left: 520px;
+  left: 430px;
   transform: translateY(-50%);
   cursor: pointer;
 }
 .input__btn .inputs {
   padding: 12px 590px 12px 68px;
-  margin-left: 64px;
+  margin-left: 34px;
   border-radius: 30px;
   border: 1px solid #D4E5EF;
   cursor: pointer;
@@ -319,7 +319,7 @@ body {
   position: absolute;
   top: 28px;
   bottom: auto;
-  right: 200px;
+  right: 166px;
   left: auto;
   transform: translateY(-50%);
   cursor: pointer;

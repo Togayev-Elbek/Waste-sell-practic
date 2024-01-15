@@ -122,11 +122,11 @@
     }
 
     .input__icon{
-        @include mixins.search-icon($position: absolute, $top:28px, $left: 520px)
+        @include mixins.search-icon($position: absolute, $top:28px, $left: 430px)
     }  
     .inputs{
         padding: 12px 590px 12px 68px;
-        margin-left: 64px;
+        margin-left: 34px;
         border-radius: 30px;
         border: 1px solid variables.$bg-color;
         cursor: pointer;
@@ -141,7 +141,7 @@
         }
     }
     .search__icon{
-        @include mixins.search-icon($position: absolute, $top:28px, $right: 200px)  
+        @include mixins.search-icon($position: absolute, $top:28px, $right: 166px)  
     }
 }
 .product__boxs{
